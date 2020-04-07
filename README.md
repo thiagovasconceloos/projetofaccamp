@@ -1,5 +1,10 @@
 <h1> Controle de Vendas com integração ao estoque de produtos</h1>
 
+![Screenshot](https://i.ibb.co/Pc2pzVH/padaria2.png)
+
+
+
+
 <h2>Objetivos do Projeto</h2>
 Desenvolver uma solução computacional que possibilite um
 maior controle sobre o processo de venda e o estoque de produtos. Utilizando das melhores tecnologias para alcançar esse objetivo.
