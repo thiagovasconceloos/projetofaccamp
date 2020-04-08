@@ -28,5 +28,13 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
 * [JasperReports](https://community.jaspersoft.com/project/ireport-designer) 
 * CorelDRAW X8 (64-Bit)
  
+ 
+ <h2>Resultados</h2>
  Tela Inicial: 
  ![Screenshot](https://i.ibb.co/Y39T1F0/tela-inicial.png)
+ 
+ Ponto de Venda:
+ ![Screenshot](https://i.ibb.co/C8H5b8J/pvd.png)
+ 
+ Pedido Impresso:
+ ![Screenshot](https://i.ibb.co/MDtyWZb/pedido-1.png)
