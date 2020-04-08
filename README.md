@@ -30,8 +30,10 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
  
  
  <h2>Resultados</h2>
+ 
  Tela Inicial: 
  ![Screenshot](https://i.ibb.co/Y39T1F0/tela-inicial.png)
+ 
  
  Ponto de Venda:
  ![Screenshot](https://i.ibb.co/C8H5b8J/pvd.png)
