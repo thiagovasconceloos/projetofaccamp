@@ -655,7 +655,7 @@ private void changeComponentColors(Component comp) {
                 venda.setVenda(ved);
                   
                      filtro.put("venda_id",venda.getVenda().getId());
-                JasperPrint print = JasperFillManager.fillReport("C:/iReports/ImprimirVenda.jasper", filtro,conect);             
+                JasperPrint print = JasperFillManager.fillReport("C:/iReports/Imprimir.jasper", filtro,conect);             
            
              JasperViewer.viewReport(print, false);
              

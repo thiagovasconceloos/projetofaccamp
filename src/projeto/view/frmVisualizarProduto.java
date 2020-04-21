@@ -129,7 +129,7 @@ for (int i = 0; i < tabelapro.getModel().getColumnCount(); i++) {
 
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 3, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 102, 153));
-        jLabel2.setText("Pesquisar por Codigo:");
+        jLabel2.setText("Pesquisar por Nome:");
 
         tabelapro.setBackground(new java.awt.Color(153, 153, 153));
         tabelapro.setForeground(new java.awt.Color(153, 153, 153));

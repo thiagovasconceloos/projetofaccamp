@@ -39,7 +39,7 @@ public class frmMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        ImageIcon icon = new ImageIcon(getClass().getResource("/projeto/imagens/fundo.png"));
+        ImageIcon icon = new ImageIcon(getClass().getResource("/projeto/imagens/padaria2.png"));
         Image image = icon.getImage();
         painel = new javax.swing.JDesktopPane(){
 

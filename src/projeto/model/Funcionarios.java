@@ -25,7 +25,16 @@ public class Funcionarios{
     private String endereco;
     private int numero;
     private String complemento;
+
+    public boolean isVerifica() {
+        return verifica;
+    }
+
+    public void setVerifica(boolean verifica) {
+        this.verifica = verifica;
+    }
     private String bairro;
+    private boolean verifica;
 
     public int getId() {
         return id;

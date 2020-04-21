@@ -565,11 +565,11 @@ public class frmFuncionarios extends javax.swing.JFrame {
       
 
            if(txtCodigo.getText().equals("")){      
-        
- 
+          dao.validarCPF(txtCPF.getText());
+            
             dao.cadastrarFuncionarios(obj);
             dao.LimpaTela(painel_base);
-             popularTabela();}
+             popularTabela();
        }else
        {
            
@@ -578,7 +578,7 @@ public class frmFuncionarios extends javax.swing.JFrame {
        } 
     
 
-
+              }
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
