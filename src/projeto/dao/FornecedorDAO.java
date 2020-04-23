@@ -114,11 +114,11 @@ public class FornecedorDAO {
             stmt.execute();
             stmt.close();
 
-            JOptionPane.showMessageDialog(null, "Cadastro efetuado");
+            JOptionPane.showMessageDialog(null, "Fornecedor Cadastrado");
 
         } catch (SQLException e) {
 
-            JOptionPane.showMessageDialog(null, "Erro ao cadastrar Cliente" + e);
+            JOptionPane.showMessageDialog(null, "Erro ao cadastrar fornecedor" + e);
 
         }
 
