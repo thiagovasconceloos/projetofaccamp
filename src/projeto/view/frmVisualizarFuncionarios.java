@@ -70,7 +70,6 @@ for (int i = 0; i < tabelafun.getModel().getColumnCount(); i++) {
                 c.getRg(),
                 c.getCpf(),
                 c.getUser(),
-                c.getSenha(),
                 c.getCargo(),
                 c.getNivelacesso(),
                 c.getTelefone(),
@@ -132,11 +131,11 @@ for (int i = 0; i < tabelafun.getModel().getColumnCount(); i++) {
 
             },
             new String [] {
-                "ID", "Nome", "RG", "CPF", "Email", "Senha", "Cargo", "Nivel de Acesso", "Telefone", "Celular", "Cep", "Endereço", "Numero", "Complemento", "Bairro", "Cidade", "Uf"
+                "ID", "Nome", "RG", "CPF", "Email", "Cargo", "Nivel de Acesso", "Telefone", "Celular", "Cep", "Endereço", "Numero", "Complemento", "Bairro", "Cidade", "Uf"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, false
+                false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -155,7 +154,7 @@ for (int i = 0; i < tabelafun.getModel().getColumnCount(); i++) {
         });
         jScrollPane1.setViewportView(tabelafun);
         if (tabelafun.getColumnModel().getColumnCount() > 0) {
-            tabelafun.getColumnModel().getColumn(16).setResizable(false);
+            tabelafun.getColumnModel().getColumn(15).setResizable(false);
         }
 
         jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 0, 18)); // NOI18N
@@ -230,18 +229,17 @@ for (int i = 0; i < tabelafun.getModel().getColumnCount(); i++) {
         frm.txtRG.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 2).toString());
         frm.txtCPF.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 3).toString());
         frm.txtEmail.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 4).toString());
-        frm.txtSenha.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 5).toString());
-        frm.txtCargo.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 6).toString());
-        frm.cmbAcesso.setSelectedItem(tabelafun.getValueAt(tabelafun.getSelectedRow(), 7).toString());
-        frm.txtTelefone.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 8).toString());
-        frm.txtCelular.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 9).toString());
-        frm.txtCEP.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 10).toString());
-        frm.txtEndereco.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 11).toString());
-        frm.txtNumero.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 12).toString());
-        frm.txtComplemento.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 13).toString());
-        frm.txtBairro.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 14).toString());
-        frm.txtCidade.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 15).toString());
-        frm.cmbUF.setSelectedItem(tabelafun.getValueAt(tabelafun.getSelectedRow(), 16).toString());
+        frm.txtCargo.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 5).toString());
+        frm.cmbAcesso.setSelectedItem(tabelafun.getValueAt(tabelafun.getSelectedRow(), 6).toString());
+        frm.txtTelefone.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 7).toString());
+        frm.txtCelular.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 8).toString());
+        frm.txtCEP.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 9).toString());
+        frm.txtEndereco.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 10).toString());
+        frm.txtNumero.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 11).toString());
+        frm.txtComplemento.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 12).toString());
+        frm.txtBairro.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 13).toString());
+        frm.txtCidade.setText(tabelafun.getValueAt(tabelafun.getSelectedRow(), 14).toString());
+        frm.cmbUF.setSelectedItem(tabelafun.getValueAt(tabelafun.getSelectedRow(), 15).toString());
         
         
         frm.setVisible(true);
