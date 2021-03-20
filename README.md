@@ -44,5 +44,5 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
 
 
   <h2> Artigo </h2>
-  <a href="username.github.io/folder/document.pdf" target="_blank">PDF.</a>
+ <a href="https://github.com/thiagovasconceloos/projetofaccamp/blob/master/.docs/Artigo%20%20-%20Thiago%20Vasconcelos.pdf" target="_blank">Trabalho de Conclusão de Curso.</a>
 
