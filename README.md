@@ -40,3 +40,8 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
  
  Pedido Impresso:
  ![Screenshot](https://i.ibb.co/MDtyWZb/pedido-1.png)
+
+
+
+  <h2> Artigo </h2>
+  [Trabalho de Conclusão de Curso](https://github.com/thiagovasconceloos/projetofaccamp/blob/master/.docs/Artigo%20%20-%20Thiago%20Vasconcelos.pdf)
