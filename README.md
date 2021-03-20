@@ -44,4 +44,5 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
 
 
   <h2> Artigo </h2>
-  * [WebService de CEP](https://github.com/thiagovasconceloos/projetofaccamp/blob/master/.docs/Artigo%20%20-%20Thiago%20Vasconcelos.pdf)
+  * [WebService de CEP](https://www.republicavirtual.com.br/)
+
