@@ -15,7 +15,6 @@ import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.MenuElement;
 import javax.swing.plaf.basic.BasicMenuBarUI;
-import keeptoo.Drag;
 import projeto.dao.VendasDAO;
 import projeto.model.Vendas;
 
@@ -355,12 +354,6 @@ private void changeComponentColors(Component comp) {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
-    private keeptoo.KGradientPanel kGradientPanel1;
-    private keeptoo.KGradientPanel kGradientPanel2;
-    private keeptoo.KGradientPanel kGradientPanel4;
-    private javax.swing.JLabel lblvalortotal;
-    private javax.swing.JLabel ok;
-    private keeptoo.KGradientPanel txtrase;
     private javax.swing.JLabel txtvalorhoje;
     private javax.swing.JLabel vendastotal;
     // End of variables declaration//GEN-END:variables
