@@ -44,4 +44,4 @@ maior controle sobre o processo de venda e o estoque de produtos. Utilizando das
 
 
   <h2> Artigo </h2>
-  [Trabalho de Conclusão de Curso](https://github.com/thiagovasconceloos/projetofaccamp/blob/master/.docs/Artigo%20%20-%20Thiago%20Vasconcelos.pdf)
+  * [Trabalho de Conclusão de Curso](https://github.com/thiagovasconceloos/projetofaccamp/blob/master/.docs/Artigo%20%20-%20Thiago%20Vasconcelos.pdf)
